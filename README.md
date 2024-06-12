@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src=".github/preview.jpg" alt="projeto DevLinks">
+  SEM PREVIEW NO MOMENTO
 </p>
 
 ## 🚀 Tecnologias
@@ -17,8 +17,8 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-- Este portfolio foi feito com os conhecimentos obtidos no curso de HTML, CSS e JavaScript da RocketSeat.
+- Este portfolio foi feito para o uso pessoal.
 
 ## LINK
 
-https://arthurvitor.vercel.app/
+NÃO DISPONIVEL NO MOMENTO

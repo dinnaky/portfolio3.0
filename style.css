@@ -22,15 +22,121 @@ body {
 }
 
 .container {
-    display: flex;
-    justify-content: space-evenly;
     margin: 1em 0;
 }
 
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.2s;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: #cfcfcf;
+}
+
+.txt_title {
+    font-size: 60px;
+}
+
+.txt_perfil p {
+    font-size: 18px;
+}
+
+.info_perfil {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.linha {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.tecnologias {
+    display: flex;
+    gap: 20px;
+}
+
+.tecnologias img {
+    width: 40px;
+    transition: all 0.2s;
+}
+
+.tecnologias img:hover {
+    transform: scale(1.1);
+}
+
+.links_perfil {
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.links_perfil a {
+    color: #CCCCCC;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#image_perfil {
+    background-image: url(assets/avatar.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 2px #ffffff solid;
+    transition: all .2s;
+}
+
+#image_perfil:hover {
+    transform: scale(1.01);
+}
+
+.ds {
+    width: auto;
+    height: 100vh;
+    background-color: #555;
+}
+
+
+
+
+
 /*div perfil*/
 
-.principal {
-    align-items: center;
+    /*.principal {
+ align-items: center;
 }
 
 .primeiro-bloco {
@@ -47,6 +153,8 @@ body {
 
 .imagem-perfil img{
     width: 200px;
+    border-radius: 50%;
+    border: 2px #ffffff solid;
 }
 
 .texto-perfil {
@@ -71,7 +179,7 @@ body {
 /*sobre mim*/
 
 
-.segundo-bloco {
+/*.segundo-bloco {
     padding: 2em;
     background-color: var(--bgsecundario-color);
     width: 50vw;
@@ -104,7 +212,7 @@ body {
 
 /*Secundario*/
 
-.redes-buttons a {
+/*.redes-buttons a {
     color: #CCCCCC;
     font-size: 20px;
     display: block;
@@ -134,7 +242,7 @@ body {
 .img-tec img:hover {
     width: 50px;
     transform: translateY(-6px);
-}
+} */
 
 
 
