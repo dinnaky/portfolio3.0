@@ -15,17 +15,23 @@
     --bg-botao-hover: #3d3d3d;
 }
 
+html {
+    overflow-x: hidden
+}
+
+
 body {
     background: var(--bg-color);
     font-family: var(--font-principal);
     color: var(--font-color);
+    scroll-behavior: smooth;
 }
 
 .primario {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 5em;
+    margin-bottom: 50px;
     
 }
 
@@ -34,7 +40,7 @@ header {
     justify-content: center;
     height: 10vh;
     align-items: center;
-    margin-bottom: 5em;
+    margin-bottom: 50px;
 }
 
 nav ul{
@@ -122,6 +128,8 @@ nav ul li a:hover{
     transform: scale(1.01);
 }
 
+/*sobre*/
+
 .sobre_image {
     background-image: url(assets/sobre.jpg);
     background-position: left;
@@ -140,7 +148,7 @@ nav ul li a:hover{
     gap: 20px;
 }
 
-.sobre_info h2{
+.sobre_info h1{
     font-size: 34px;
 }
 
@@ -150,7 +158,7 @@ nav ul li a:hover{
     width: 100vw;
     justify-content: space-evenly;
     background-color: #3d3d3d;
-    padding: 5em 5em;
+    padding: 50px 50px;
 }
 
 .sobre_texto{
@@ -160,120 +168,160 @@ nav ul li a:hover{
     gap: 20px;
 }
 
-
-
-
-
-/*div perfil*/
-
-    /*.principal {
- align-items: center;
-}
-
-.primeiro-bloco {
-    background-color: var(--bgsecundario-color);
-    width: 23%;
-    padding: 1em;
+.button_projetos {
+    border: none;
     border-radius: 10px;
-}
-
-.imagem-perfil {
-    display: flex;
-    justify-content: center;
-}
-
-.imagem-perfil img{
-    width: 200px;
-    border-radius: 50%;
-    border: 2px #ffffff solid;
-}
-
-.texto-perfil {
-    text-align: center;
-    padding: 1em;
-}
-
-.texto-perfil h2, p {
-    line-height: 2em;
-}
-
-.icone-html{
-    width: 50px;
-    margin: auto;
-    transition: transform .3s;
-}
-
-.icone-html:hover {
-    transform: translateY(-6px);
-}
-
-/*sobre mim*/
-
-
-/*.segundo-bloco {
-    padding: 2em;
-    background-color: var(--bgsecundario-color);
-    width: 50vw;
-    border-radius: 10px;
-}
-
-.sobre-mim h2 {
-    margin-bottom: 20px;
-}
-
-.sobre-mim a {  
-    background: var(--bg-botao);
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    transition: all 0.8s;
-}
-
-.sobre-mim a:hover {  
-    background: var(--bg-botao-hover);
-}
-
-.buttons {
-    display: flex;
-    justify-content: end;
     cursor: pointer;
-    margin-top: 1em;
-}
-
-/*Secundario*/
-
-/*.redes-buttons a {
-    color: #CCCCCC;
-    font-size: 20px;
-    display: block;
-    margin: 10px;
-    text-decoration: none;
-    transition: color .2s;
-}
-
-.redes-buttons a:hover {
     color: #ffffff;
+    background-color: #06862c;
+    font-weight: bold;
+    width: 200px;
+    padding: 1em;
+    text-decoration: none;
+    transition: transform 0.2s;
 }
 
-.tecnologias h2 {
-    margin-bottom: 1em;
+.button_projetos:hover {
+    transform: scale(1.02);
 }
 
-.img-tec {
+.button_projetos:active{
+    transform: scale(1);
+}
+
+/*projetos*/
+
+.terciario h1 {
+    text-align: center;
+    margin: 50px 50px;
+    font-size: 30px;
+
+}
+
+.projetos_info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.projetos_lista {
     display: flex;
     justify-content: space-around;
 }
 
-.img-tec img {
-    width: 50px;
+.projetos {
     transition: all .2s;
 }
 
-.img-tec img:hover {
-    width: 50px;
-    transform: translateY(-6px);
-} */
+.projetos:hover {
+    transform: scale(1.01);
+}
+
+#um {
+    background-image: url(assets/projetoNutripro2.PNG);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 200px;
+    border-end-start-radius: 20%;
+    border: 2px #ffffff solid;
+    transition: all .2s;
+}
+
+#dois {
+    background-image: url(assets/projetoBusFinder.PNG);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 200px;
+    border-end-start-radius: 20%;
+    border: 2px #ffffff solid;
+    transition: all .2s;
+}
+
+.projetos_info a{
+    font-size: 50px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.projetos_links {
+    display: flex;
+    gap: 20px;
+}
+
+.projetos_text {
+    text-align: center;
+    width: 300px;
+    line-height: 30px;
+}
+
+/*Contato*/
+
+.quaternario {
+    background-color: #3d3d3d;
+    padding: 50px 50px;
+}
+
+.quaternario h1 {
+    text-align: center;
+    margin: 50px 50px;
+    font-size: 30px;
+}
+
+.contato_lista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.contato_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contato_lista_titulo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ion-icon {
+    font-size: 30px;
+}
+
+/*footer*/
+
+
+.footer_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.footer_info {
+    text-align: center;
+}
+
+.botao__inicio {
+    text-decoration: none;
+    color: #FFF;
+    background: #06862c;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 5px;
+}
 
 
 

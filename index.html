@@ -8,17 +8,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <title>Arthur Vitor | Portfolio</title>
+    <title>Arthur Vitor | Portfólio</title>
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header id="home">
+        <nav >
             <ul>
-                <li><a href="#">Home</li></a>
-                <li><a href="#">Sobre</li></a>
-                <li><a href="#">Projetos</li></a>
-                <li><a href="#">Contato</li></a>
+                <li><a href="#home">Home</li></a>
+                <li><a href="#sobre">Sobre</li></a>
+                <li><a href="#projetos">Projetos</li></a>
+                <li><a href="#contato">Contato</li></a>
             </ul>
         </nav>
     </header>
@@ -48,9 +48,9 @@
                 <div id="image_perfil"></div>
             </div>
         </section class="container secundario">
-            <div class="sobre">
+            <div class="sobre" id="sobre">
                 <div class="sobre_info">
-                    <h2>SOBRE:</h2>
+                    <h1>SOBRE:</h1>
                     <div class="sobre_texto">
                         <p>Olá, seja bem vindo ao meu portfólio! Sou Arthur estudante de Análise e Desenvolvimento de Sistemas. 
                         <p> Aos 16 anos, estou no começo da minha trajetória profissional, mas já trago comigo uma vontade enorme de aprender e me desenvolver nesse campo incrível. 
@@ -58,13 +58,85 @@
                         <p>Gosto de compartilhar meus projetos no GitHub e colaborar com outros desenvolvedores para expandir meu conhecimento.</p> 
                         <p>Estou determinado a me especializar na área de desenvolvimento de sistemas e alcançar grandes conquistas profissionais.</p>
                     </div>
+                    <a href="#projetos" class="button_projetos">CONHECER PROJETOS</A>
                 </div>
                 <div class="sobre_image"></div>
             </div>
         <section>        
         </section>
-
+        <section class="container terciario">
+            <h1 id="projetos">PROJETOS</h1>
+            <div class="projetos_lista">
+                <div class="projetos_info" >
+                    <div class="projetos_titulo">
+                        <h2>NutriPro</h2>
+                    </div>
+                    <div class="projetos" id="um"></div>
+                    <div class="projetos_text">
+                        <p>Sistema de cadastro de pacientes</p>
+                        <p>HTML | CSS | JAVASCRIPT</p>
+                    </div>
+                    <div class="projetos_links">
+                        <a href="https://github.com/dinnaky/NutriPro"><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="https://dinnaky.github.io/NutriPro/"><ion-icon name="globe-outline"></ion-icon></a>
+                    </div>
+                </div>
+                <div class="projetos_info">
+                    <div class="projetos_titulo">
+                        <h2>BusFinder</h2>
+                    </div>
+                    <div class="projetos" id="dois"></div>
+                    <div class="projetos_text">
+                        <p>Sistema de consulta de linhas de ônibus para minha cidade</p>
+                        <p>HTML | CSS </p>
+                    </div>
+                    <div class="projetos_links">
+                        <a href="https://github.com/dinnaky/linhaDeOnibus"><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="https://dinnaky.github.io/linhaDeOnibus/"><ion-icon name="globe-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+            <h1>Em breve mais projetos...</h1>
+        </section>
+        <section class="container quaternario">
+            <h1>CONTATO</h1>
+            <div class="contato_lista" id="contato">
+                <div class="contato_telefone">
+                    <div class="contato_text">
+                        <div class="contato_lista_titulo">
+                            <ion-icon name="call-outline"></ion-icon><h2>Telefone:</h2>
+                        </div>
+                        <p>+55 44 99720-0378</p>
+                    </div>
+                </div>
+                <div class="contato_email">
+                    <div class="contato_text">
+                        <div class="contato_lista_titulo">
+                            <ion-icon name="mail-outline"></ion-icon><h2>Email:</h2>
+                        </div>
+                        <p>arhturvitorsilvio@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a href="#home" class="botao__inicio">&#9650</a>
     </main>
+    <footer>
+        <div class="footer_content">
+            <div class="footer_info">
+                <p>Este é o meu Website e Portfólio oficial.</p>
+                <p>&copy Todos os direitos reservados</p>
+            </div>
+            <div class="links_perfil">
+                <a href="https://github.com/dinnaky"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/arthur-vitor-356084245/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://www.instagram.com/arthurvitorgtr/"><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+            <div class="footer_text">
+                <p>Desenvolvido por Arthur Vitor</p>
+            </div>
+        </div>
+    </footer>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="script.js"></script>
