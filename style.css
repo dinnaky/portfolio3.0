@@ -21,14 +21,12 @@ body {
     color: var(--font-color);
 }
 
-.container {
-    margin: 1em 0;
-}
-
-.home {
+.primario {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-bottom: 5em;
+    
 }
 
 header {
@@ -62,6 +60,7 @@ nav ul li a:hover{
 
 .txt_perfil p {
     font-size: 18px;
+    color: #CCCCCC;
 }
 
 .info_perfil {
@@ -123,10 +122,42 @@ nav ul li a:hover{
     transform: scale(1.01);
 }
 
-.ds {
-    width: auto;
-    height: 100vh;
-    background-color: #555;
+.sobre_image {
+    background-image: url(assets/sobre.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    border-end-end-radius: 20%;
+    border: 2px #ffffff solid;
+    transition: all .2s;
+}
+
+.sobre_info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sobre_info h2{
+    font-size: 34px;
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-evenly;
+    background-color: #3d3d3d;
+    padding: 5em 5em;
+}
+
+.sobre_texto{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 
