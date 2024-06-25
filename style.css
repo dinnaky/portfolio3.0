@@ -19,16 +19,14 @@
 }
 
 html {
-    overflow-x: hidden
+    overflow-x: hidden;
 }
-
 
 body {
     background: var(--bg-color);
     font-family: var(--font-principal);
     color: var(--font-color);
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 header {
@@ -389,11 +387,25 @@ ion-icon {
     .primario {
         flex-direction: column;
         gap: 100px;
-        margin: auto;
     }
 
     .info_perfil {
         margin-bottom: 50px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .links_perfil {
+        margin-top: 40px;
+    }
+
+    hr {
+        width: 80vw;
+        margin: auto;
+    }
+
+    .tecnologias {
+        justify-content: center;
     }
 
     .sobre_image {
@@ -416,6 +428,21 @@ ion-icon {
 
     .projetos_lista {
         flex-direction: column;
+    }
+
+    #image_perfil {
+        width: 300px;
+        height: 300px;
+    }
+
+    .contato_lista {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contato_text {
+        text-align: center;
+        align-items: center;
     }
 }
 
