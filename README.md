@@ -5,15 +5,14 @@
 </p>
 
 <p align="center">
-  SEM PREVIEW NO MOMENTO
+  <img src=".github/preview.png" alt="portfolio">
 </p>
 
 ## 🚀 Tecnologias
 
 O projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e css
-- JavaScript
+- Foi desenvolvido em HTML, CSS E JAVASCRIPT. Ele é totalmente responsivo, então fique a vontade para abri-lo de onde quiser!
 
 ## 💻 Projeto
 
@@ -21,4 +20,6 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 
 ## LINK
 
-NÃO DISPONIVEL NO MOMENTO
+🔗 Confira o link e conheça mais sobre meus projetos, minhas conquistas e minha jornada profissional.
+
+https://arthurvitor.vercel.app
